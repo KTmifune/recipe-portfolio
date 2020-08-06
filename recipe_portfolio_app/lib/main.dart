@@ -9,12 +9,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '',
+      title: 'Recipe Portfolio',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Container(),
+      home: Container(
+        color: Colors.white,
+      ),
     );
   }
 }
